@@ -8,7 +8,6 @@ for _ in range(M):
     i, j = map(int, input().split())
     basket1 = basket[i-1:j]
     basket1.reverse()
-    basket1 = list(basket1)
     basket2 = basket[:i-1]
     basket3 = basket[j:]
     basket = basket2+basket1+basket3
